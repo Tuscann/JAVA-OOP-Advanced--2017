@@ -16,12 +16,12 @@ public class Main {
             int age = Integer.parseInt(scanner.nextLine());
             String id = scanner.nextLine();
             String birthdate = scanner.nextLine();
-//            Identifiable identifiable = new Citizen(name,age,id,birthdate);
-//            Birthable birthable = new Citizen(name,age,id,birthdate);
-//            System.out.println(methods.length);
-//            System.out.println(methods[0].getReturnType().getSimpleName());
-//            System.out.println(methods.length);
-//            System.out.println(methods[0].getReturnType().getSimpleName());
+            Identifiable identifiable = new Citizen(name,age,id,birthdate);
+            Birthable birthable = new Citizen(name,age,id,birthdate);
+            System.out.println(methods.length);
+            System.out.println(methods[0].getReturnType().getSimpleName());
+            System.out.println(methods.length);
+            System.out.println(methods[0].getReturnType().getSimpleName());
         }
 
 
